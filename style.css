@@ -1,0 +1,57 @@
+body {
+    margin: 0 auto;
+    align-items: center;
+    background: url(https://media.istockphoto.com/vectors/poker-table-background-in-green-color-vector-id1218355494?k=6&m=1218355494&s=612x612&w=0&h=z_AxLMnh_1EwJh1HifHvw3PqaqrDZNOCAljF2OKheyI=) no-repeat;
+    background-size: cover;
+}
+
+.container-5 {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid black;
+    background: url(https://media.istockphoto.com/photos/green-poker-background-picture-id453187915?k=6&m=453187915&s=612x612&w=0&h=kB43IY-gj4jbxw-_gxsXK11ar2kR8JJjxLX-aXTvjdQ=);
+    background-size: cover;
+    color: #ffffff;
+    font-family: cursive;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    flex-direction: row;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    color: #ffffff;
+    font-family:cursive;
+}
+
+.flex-blackjack-row-1 img {
+    width: 25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-1 div {
+    padding: 10px;
+    flex: 1;
+    height: 350px;
+    text-align: center;
+    justify-content: center;
+}
+
+.flex-blackjack-row-2 div {
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 button {
+    padding: 10px;
+}
+
+table, td, th  {
+    width: 250px;
+    padding-left: 18px;
+    color: #ffffff;
+}
